@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Open in remote terminal
+Comment=Open current folder in remote terminal
+Exec=<remote_terminal.sh %U>
+Icon-Name=terminal
+Selection=none
+Extensions=dir;
+Dependencies=ssh;
