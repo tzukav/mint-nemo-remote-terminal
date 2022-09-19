@@ -5,6 +5,6 @@ Nemo has an attempt to remote ssh but it is not completely remote and doesn't wo
 Firstly, you need to login in your sftp server via nemo file manager and save login password.
 Then, you need to execute this command to install and set dependencies: 
 ```bash
-sudo apt install sshpass && sudo apt install libsecret-tools && git clone https://github.com/tzukav/mint-nemo-remote-terminal.git && mv mint-nemo-remote-terminal/* ~/.local/share/nemo/actions/ && rm -rf mint-nemo-remote-terminal
+sudo apt install sshpass && sudo apt install libsecret-tools && git clone https://github.com/tzukav/mint-nemo-remote-terminal.git && mv mint-nemo-remote-terminal/* ~/.local/share/nemo/actions/ && rm -rf mint-nemo-remote-terminal && chmod +x ~/.local/share/nemo/actions/remote_terminal.sh
 ```
 And that's it, now you have auto ssh login directly in your nemo file manager.
